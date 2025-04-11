@@ -1,0 +1,39 @@
+# Example configuration file for Bowens Island Private Parties connector
+# This file would typically be stored in: ~/.bowens_island/config.yaml
+
+# Cognito Forms API settings
+cognito:
+  # Your Cognito Forms API key (keep this secure!)
+  api_key: "YOUR_API_KEY_HERE"
+  
+  # The Form ID for Bowens Island Private Party form
+  # This is typically visible in the URL when editing the form
+  form_id: "17"
+  
+  # Base URL for the Cognito Forms API (rarely needs to change)
+  base_url: "https://www.cognitoforms.com/api"
+
+# Excel settings
+excel:
+  # Path to the Excel file
+  template_path: "C:/path/to/your/bowens_island_bookings.xlsx"
+  
+  # Name of the main data sheet
+  main_sheet: "MainData"
+  
+  # Whether to make the main sheet read-only
+  read_only: true
+
+# Synchronization settings
+sync:
+  # Automatically sync when Excel file is opened
+  auto_sync_on_open: true
+  
+  # Automatically sync when Excel file is saved
+  auto_sync_on_save: false
+  
+  # Confirm changes before syncing to Cognito
+  confirm_changes: true
+  
+  # Last synchronization time (updated automatically)
+  last_sync: null
