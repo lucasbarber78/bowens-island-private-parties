@@ -1,0 +1,39 @@
+# Python byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Configuration
+.bowens_island/
+*.yaml
+!examples/config_example.yaml
+
+# Excel files
+*.xlsx
+*.xls
+*.xlsm
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
