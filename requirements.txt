@@ -1,0 +1,18 @@
+# API Communication
+requests>=2.31.0
+
+# Excel Processing
+openpyxl>=3.1.2
+pandas>=2.1.0
+xlwings>=0.30.8
+
+# Data Processing
+pyyaml>=6.0.1
+pydantic>=2.4.2
+numpy>=1.26.0
+
+# Development
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.1.0
+pre-commit>=3.3.3
